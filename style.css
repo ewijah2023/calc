@@ -1,3 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
 .calculator {
     display: flex;
+    justify-content: center; 
+    flex-direction: column;   
+    align-items: center;
+    padding: 200px;
+    background-color: lightblue;
+    max-width: 20vh;
+    border-radius: 16px;
+}
+
+#display {
+    background-color: white;
+    padding: 24px;
+    border-radius: 24px;
 }
