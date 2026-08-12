@@ -22,3 +22,25 @@ function divide(a, b){
     let quotient = a / b;
     return quotient;
 }
+
+function operate(operator, num1, num2) {
+    let outcome
+    
+    if (operator === "+") {
+        outcome = add(num1, num2)
+
+    }
+    else if (operator === "-"){
+        outcome = subtract(num1, num2)
+    }
+    else if (operator === "/"){
+        outcome = divide(num1, num2)
+    }
+    else if (operator === "*"){
+        outcome = multiply(num1, num2)
+    }
+
+    return outcome;
+    
+
+}
